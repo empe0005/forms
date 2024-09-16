@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <main>
+        <h1>Sign in to the experience!</h1>
+        <form>
+            <label for="email">Your email</label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+            <label for="password">Your password</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="button">Login</button>
+        </form>
+        <h1>Get started on our new course!</h1>
+
+        <p>How much have you coded before?</p>
+        <form class="two">
+            <input type="radio" id="none" name="codes" value="None">
+            <label for="none">None</label><br>
+            <input type="radio" id="little" name="codes" value="a little">
+            <label for="little">A little</label><br>
+            <input type="radio" id="lot" name="codes" value="a lot">
+            <label for="lot">A lot</label><br>
+            <label for="select">Choose your start month:</label>
+            <select name="select">
+                <option value="September">September</option>
+                <option value="october">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <input type="submit">
+        </form>
+    </main>
+
+</body>
+
+</html>

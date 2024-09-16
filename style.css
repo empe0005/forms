@@ -1,0 +1,50 @@
+h1 {
+  font-family: helvetica;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 12rem;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #3c9202;
+  box-sizing: border-box;
+  background-color: #3c9202;
+  color: white;
+}
+
+.two input {
+  width: auto;
+  margin: 20px 12px;
+}
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #3c9202;
+  box-sizing: border-box;
+
+  color: #3c9202;
+}
